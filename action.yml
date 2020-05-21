@@ -39,6 +39,9 @@ inputs:
   path:
     description: Path to Dockerfile, defaults to the working directory
     default: .
+  context:
+    description: Context to pass to the Dockerfile, defaults to the working directory
+    default: .
 outputs:
   image:
     description: 'The created image name'
